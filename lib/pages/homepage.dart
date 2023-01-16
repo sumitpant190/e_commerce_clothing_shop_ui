@@ -47,7 +47,8 @@ class _HomeScreenState extends State<HomeScreen> {
       child: ListView(
         children: [
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: kPaddingHorizontal),
+            padding: const EdgeInsets.symmetric(
+                horizontal: kPaddingHorizontal, vertical: 20),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -76,7 +77,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   radius: 20,
                   backgroundColor: kGrey,
                   backgroundImage: NetworkImage(
-                      'https://randomuser.me/api/portraits/women/90.jpg'),
+                      'https://img.favpng.com/1/15/9/scalable-vector-graphics-computer-icons-user-profile-portable-network-graphics-png-favpng-n05BjRqcBz9Ub9NtAbz8GXEaN.jpg'),
                 )
               ],
             ),
